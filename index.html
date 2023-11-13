@@ -18,7 +18,7 @@
     <meta name="copyright"content="Kennedy Mwangi">
     <meta name="language" content="EN">
     <meta name="robots" content="index, follow" />
-    <meta name="revised" content="Wednesday, July 05th, 2023, 9:04 pm" />
+    <meta name="revised" content="Wednesday, November 13th, 2023, 9:04 pm" />
     <meta name="abstract" content="Kennedy Mwangi">
     <meta name="topic" content="Kennedy Mwangi portfolio">
     <meta name="summary" content="This is Kennedy Mwangi's Portfolio Website who is a Developer and a Freelancer.">
@@ -38,10 +38,14 @@
     <meta name="revisit-after" content="7 days">
     <meta http-equiv="Expires" content="0">
 
+	<!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ZzZp3vKFEH7uFAkVMOpFMHRcZVma7uH2ObzQk4sUNQlmh/j/6ZCD8Hy1V90kDUNX" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/426cac5937.js" crossorigin="anonymous"></script>
+
+
    <!-- mobile specific metas
    ================================================== -->
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
  	<!-- CSS
    ================================================== -->
@@ -53,7 +57,7 @@
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
-
+	
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153937526-1"></script> -->
     <script>
@@ -116,7 +120,10 @@
                         <span>Web Designer</span>
                     </p>
 
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+					<!-- Add the following line to display your profile picture -->
+   					<img src="images/img.jpg" alt="Kennedy Mwangi Profile Picture" class="profile-picture">
+
+	   				<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
 
 	   		</div>  
    			
@@ -152,7 +159,7 @@
    				</li>
    				<li>
    					<strong>Birth Date:</strong>
-   					<span>March, 1995</span>
+   					<span>1995</span>
    				</li>
    				<li>
    					<strong>Website:</strong>
@@ -207,15 +214,13 @@
    		</div>
 
    	</div>
-<!--
+
    	<div class="row button-section">
    		<div class="col-twelve">
    			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="Kennedy Mwangi – Growth Marketer _ Web3.pdf" title="Download CV (Growth)" class="button button-primary">Download CV (Growth)</a>
-   			<a href="Kennedy Mwangi – Solidity _ Smart Contract Developer.pdf" title="Download CV (Solidity)" class="button button-primary">Download CV (Solidity)</a>
    		</div>   		
    	</div>
--->
+
    </section> <!-- /process-->    
 
 
@@ -224,19 +229,20 @@
 	<section id="resume" class="grey-section">
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+   			<div class="col-twelve">
 
-   			<h5>Resume</h5>
-            <h2>More of my Credentials</h2>
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+   				<h5>Resume</h5>
+				<a href="KENNEDY resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+            	<h2>More of my Credentials</h2>
+   			</div>   		
+   		</div> <!-- /section-intro--> 
 
-   	<div class="row resume-timeline">
+   		<div class="row resume-timeline">
 
-   		<div class="col-twelve resume-header">
+   			<div class="col-twelve resume-header">
 
-   			<h2>Education</h2>
-
+   				<h2>Education</h2>
+			</div>
    		</div> <!-- /resume-header -->
 
    		<div class="col-twelve">
@@ -362,7 +368,7 @@
    		<div class="col-twelve">
             
 <!-- form -->
-<form name="form" id="contactForm" method="POST" action="https://formspree.io/f/mayaqvnv">
+<form name="form" id="contactForm" method="POST" action="#">
       			<fieldset>
                     <div class="form-field">
  				<input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">

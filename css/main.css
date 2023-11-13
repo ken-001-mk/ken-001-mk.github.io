@@ -1297,7 +1297,7 @@
   * ------------------------------------------------------------------- 
   */
  #intro {
-     background: #151515 url(../images/bgg.jpg) no-repeat center bottom;
+     background: #151515 url(../images/img1.jpg) no-repeat center bottom;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      background-size: cover;
@@ -1374,6 +1374,17 @@
      display: inline-block;
      padding: 0 14px 0 8px;
      color: rgba(255, 255, 255, 0.3);
+ }
+ 
+ .intro-content .profile-picture {
+     display: inline-block;
+     max-width: 200px;
+     height: auto;
+     margin: 0 0 1.5rem 0;
+     border-radius: 50%;
+     overflow: hidden;
+     border: 3px solid #9e2525;
+     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
  }
  .intro-content .button {
      color: #FFFFFF !important;
